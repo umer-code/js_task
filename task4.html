@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>task four</title>
+	<script>
+        var day = 433;
+        function age(day){
+            
+            var year = day/365;
+            var y = Math.floor(year);
+            console.log("year: ", y)
+
+            var mon= day-y*365;
+            var m = Math.floor(mon/30);
+            console.log("month: ",m);
+        
+            var days= day-m*30-y*365;
+            console.log("day: ",days);
+        }
+        age(day);
+    </script>	
+</head>
+<body>
+    
+</body>
+</html>
